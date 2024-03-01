@@ -1,0 +1,102 @@
+.image-1-icon4,
+.wrapper-image-13 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  mix-blend-mode: normal;
+}
+.image-1-icon4 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  top: 9px;
+  transform: scale(1.018);
+}
+.wrapper-image-13 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.about-us1 {
+  margin: 0;
+}
+.about-us,
+.tutee-is-an {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.about-us {
+  width: 1418px;
+  height: 173px;
+  font-size: var(--font-size-77xl);
+  font-style: italic;
+  font-family: var(--font-inria-sans);
+  color: var(--color-black);
+  text-align: center;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.tutee-is-an {
+  height: 516px;
+  width: 1344px;
+  white-space: pre-wrap;
+}
+.desktop-5,
+.frames-group {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frames-group {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 42px 0 var(--padding-35xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.desktop-5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-123xl) 0 121px;
+  gap: 54px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .about-us {
+    font-size: var(--font-size-29xl);
+  }
+  .tutee-is-an {
+    font-size: var(--font-size-19xl);
+  }
+  .frames-group {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .desktop-5 {
+    gap: 54px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us,
+  .tutee-is-an {
+    font-size: var(--font-size-10xl);
+  }
+}
