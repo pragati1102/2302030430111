@@ -1,0 +1,231 @@
+.image-1-icon2,
+.wrapper-image-11 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  mix-blend-mode: normal;
+}
+.image-1-icon2 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  top: 15px;
+  transform: scale(1.029);
+}
+.wrapper-image-11 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.class1,
+.to-121 {
+  margin: 0;
+}
+.class-9-to-container1 {
+  width: 558px;
+  height: 203px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.text-label-c {
+  align-self: stretch;
+  height: 530px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.class-9,
+.english,
+.maths,
+.science,
+.subjects {
+  margin: 0;
+}
+.class-9-container {
+  align-self: stretch;
+  height: 411px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-top: -506px;
+}
+.multi-frames {
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 530px;
+  max-width: 100%;
+}
+.group {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  background-color: var(--color-gainsboro-100);
+  width: 358px;
+  z-index: 1;
+}
+.biology,
+.chemistry,
+.class-sci,
+.math,
+.physics,
+.subjects1 {
+  margin: 0;
+}
+.class-sci-subjects-container {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  display: inline-block;
+  width: 382px;
+  height: 517px;
+  z-index: 2;
+}
+.multi-frames1 {
+  height: 530px;
+  flex: 1;
+  position: relative;
+  min-width: 266px;
+  max-width: 100%;
+}
+.sibling-frame {
+  width: 358px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 6px;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.accounts,
+.blank-line,
+.blank-line1,
+.class-com,
+.english1,
+.oc,
+.statistics,
+.subjects2 {
+  margin: 0;
+}
+.class-com-container {
+  align-self: stretch;
+  height: 517px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.framed-class,
+.multi-frames2 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.multi-frames2 {
+  width: 382px;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+.framed-class {
+  width: 1197px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 11px;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.desktop-7,
+.frame-container {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+}
+.frame-container {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 69px var(--padding-69xl) var(--padding-xl);
+  gap: 142px 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.desktop-7 {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-10xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frame-container {
+    gap: 142px 0;
+    padding-right: 34px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .class-9-to-container1 {
+    font-size: var(--font-size-29xl);
+  }
+  .class-9-container,
+  .class-com-container,
+  .class-sci-subjects-container {
+    font-size: var(--font-size-32xl);
+  }
+  .frame-container {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-container {
+    gap: 142px 0;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .class-9-to-container1 {
+    font-size: var(--font-size-10xl);
+  }
+  .class-9-container,
+  .class-com-container,
+  .class-sci-subjects-container {
+    font-size: var(--font-size-19xl);
+  }
+  .frame-container {
+    gap: 142px 0;
+  }
