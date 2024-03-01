@@ -1,0 +1,236 @@
+.image-1-icon3,
+.wrapper-image-12 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  mix-blend-mode: normal;
+}
+.image-1-icon3 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  top: 15px;
+  transform: scale(1.029);
+}
+.wrapper-image-12 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.programming-languages1 {
+  margin: 0;
+  height: 203px;
+  width: 881px;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.text-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.welcome-students {
+  align-self: stretch;
+  height: 530px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.developers,
+.front-end {
+  margin: 0;
+}
+.front-end-developers {
+  align-self: stretch;
+  height: 198px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-top: -321px;
+}
+.multi-frame {
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 530px;
+  max-width: 100%;
+}
+.line {
+  width: 358px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 52px;
+  bottom: 0;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.back-end,
+.developers1 {
+  margin: 0;
+}
+.back-end-developers {
+  width: 372px;
+  height: 153px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.multi-frame1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 209px 45px 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 280px;
+  min-height: 530px;
+  max-width: 100%;
+}
+.multi-frame-child {
+  align-self: stretch;
+  height: 530px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.database,
+.developers2 {
+  margin: 0;
+}
+.database-developers {
+  align-self: stretch;
+  height: 177px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-top: -311px;
+}
+.multi-frame2 {
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-height: 530px;
+  max-width: 100%;
+}
+.developers-frames {
+  width: 1179px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.desktop-8,
+.frame-a {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+}
+.frame-a {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 87px var(--padding-69xl) var(--padding-xl);
+  gap: 154px 0;
+  max-width: 100%;
+}
+.desktop-8 {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-10xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frame-a {
+    gap: 154px 0;
+    padding-right: 43px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .programming-languages1 {
+    font-size: var(--font-size-29xl);
+  }
+  .back-end-developers,
+  .database-developers,
+  .front-end-developers {
+    font-size: var(--font-size-32xl);
+  }
+  .frame-a {
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-a {
+    gap: 154px 0;
+    padding-right: var(--padding-2xl);
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .programming-languages1 {
+    font-size: var(--font-size-10xl);
+  }
+  .back-end-developers,
+  .front-end-developers {
+    font-size: var(--font-size-19xl);
+  }
+  .multi-frame1 {
+    padding-top: 136px;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .database-developers {
+    font-size: var(--font-size-19xl);
+  }
+  .frame-a {
+    gap: 154px 0;
+  }

@@ -1,0 +1,407 @@
+.image-2-icon1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .login1 {
+    margin: 0;
+    height: 147px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    display: inline-block;
+    font-style: italic;
+    font-weight: 400;
+    font-family: inherit;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .login-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) var(--padding-9xl) 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-77xl);
+    color: var(--color-black);
+    font-family: var(--font-inria-sans);
+  }
+  .gallery,
+  .name {
+    position: relative;
+    z-index: 1;
+  }
+  .name {
+    height: 77px;
+    width: 304px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .gallery {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro-200);
+    align-self: stretch;
+    height: 62px;
+    min-width: 250px;
+  }
+  .gallery-wrapper,
+  .name-parent {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .gallery-wrapper {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 555px;
+  }
+  .name-parent {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    row-gap: 20px;
+  }
+  .email-id1 {
+    align-self: stretch;
+    height: 77px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .email-id-wrapper {
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs) 0 0;
+    box-sizing: border-box;
+  }
+  .careers {
+    align-self: stretch;
+    height: 62px;
+    position: relative;
+    background-color: var(--color-gainsboro-200);
+    z-index: 1;
+  }
+  .careers-wrapper {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 555px;
+  }
+  .careers-wrapper,
+  .desktop-3-inner,
+  .frame-group,
+  .frame-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-group {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .desktop-3-inner,
+  .frame-parent {
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 71px 0;
+  }
+  .desktop-3-inner {
+    width: 1224px;
+    flex-direction: row;
+    padding: 0 var(--padding-14xl) var(--padding-mini);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-inria-sans);
+  }
+  .blog,
+  .contact-no1 {
+    position: relative;
+    z-index: 1;
+  }
+  .contact-no1 {
+    height: 77px;
+    width: 304px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .blog {
+    align-self: stretch;
+    height: 62px;
+    background-color: var(--color-gainsboro-200);
+  }
+  .ellipse-tutor,
+  .signup-button,
+  .text-tutor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .signup-button {
+    flex: 1;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 555px;
+  }
+  .ellipse-tutor,
+  .text-tutor {
+    flex-direction: row;
+  }
+  .text-tutor {
+    flex: 1;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .ellipse-tutor {
+    width: 1224px;
+    padding: 0 var(--padding-14xl) var(--padding-mini);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-inria-sans);
+  }
+  .i-am1 {
+    height: 77px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    min-width: 198px;
+    z-index: 1;
+  }
+  .russian-text-frame-a {
+    height: 65px;
+    width: 74px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro-100);
+    z-index: 2;
+  }
+  .tutor1 {
+    height: 77px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+    margin-left: -50px;
+  }
+  .tutor-label,
+  .tutor-text1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .tutor-text1 {
+    width: 282px;
+    margin-left: -37px;
+  }
+  .tutor-label {
+    width: 549px;
+    row-gap: 20px;
+    max-width: 100%;
+  }
+  .create-account-label {
+    height: 65px;
+    width: 74px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro-100);
+    z-index: 1;
+  }
+  .student1 {
+    height: 77px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    margin-left: -23px;
+  }
+  .student-circle {
+    width: 309px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .tutor-profile,
+  .tutor-profile-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .tutor-profile {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .tutor-profile-wrapper {
+    width: 1076px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .create-new-account {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    white-space: pre-wrap;
+    z-index: 1;
+  }
+  .menu-icon {
+    height: 1px;
+    width: 126px;
+    position: relative;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .signup-frame {
+    align-self: stretch;
+    width: 1447px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: var(--padding-10xl) var(--padding-359xl);
+    box-sizing: border-box;
+    position: relative;
+    max-width: 102%;
+    flex-shrink: 0;
+  }
+  .desktop-3,
+  .new-account-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .new-account-button {
+    align-self: stretch;
+    height: 77px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-lg);
+    max-width: 100%;
+  }
+  .desktop-3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-25xl) 0 var(--padding-123xl);
+    gap: 41px 0;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-inria-sans);
+  }
+  @media screen and (max-width: 1125px) {
+    .frame-parent {
+      gap: 71px 0;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .login1 {
+      font-size: var(--font-size-29xl);
+    }
+    .contact-no1,
+    .email-id1,
+    .i-am1,
+    .name,
+    .student1,
+    .tutor1 {
+      font-size: var(--font-size-19xl);
+    }
+    .tutor-profile {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .create-new-account {
+      font-size: var(--font-size-19xl);
+    }
+    .signup-frame {
+      padding-left: var(--padding-170xl);
+      padding-right: var(--padding-170xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .careers-wrapper,
+    .gallery-wrapper {
+      min-width: 100%;
+    }
+    .frame-parent {
+      gap: 71px 0;
+    }
+    .signup-button {
+      min-width: 100%;
+    }
+    .tutor-label {
+      flex-wrap: wrap;
+    }
+    .desktop-3 {
+      gap: 41px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact-no1,
+    .email-id1,
+    .i-am1,
+    .login1,
+    .name,
+    .tutor1 {
+      font-size: var(--font-size-10xl);
+    }
+    .tutor-text1 {
+      margin-left: 0;
+    }
+    .create-new-account,
+    .student1 {
+      font-size: var(--font-size-10xl);
+    }
+    .signup-frame {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }

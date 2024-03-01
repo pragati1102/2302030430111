@@ -1,0 +1,222 @@
+.image-1-icon1,
+.wrapper-image-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  mix-blend-mode: normal;
+}
+.image-1-icon1 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  top: 9px;
+  transform: scale(1.018);
+}
+.wrapper-image-1 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.join-online-course {
+  width: 1272px;
+  height: 230px;
+  position: relative;
+  font-size: var(--font-size-77xl);
+  display: inline-block;
+  font-style: italic;
+  font-family: var(--font-inria-sans);
+  color: var(--color-black);
+  text-align: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.explore-the-best,
+.from-basic-to {
+  margin: 0;
+}
+.explore-the-best-container {
+  height: 144px;
+  width: 1228px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.parent-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) 0 var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.frame-frame-class-child {
+  height: 476px;
+  width: 360px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.class,
+.to-12 {
+  margin: 0;
+}
+.class-9-to-container {
+  height: 94px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.frame-frame-class,
+.frame-frame-class-item {
+  width: 360px;
+  background-color: var(--color-gainsboro-100);
+  max-width: 100%;
+}
+.frame-frame-class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 191px var(--padding-37xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frame-frame-class-item {
+  height: 476px;
+  position: relative;
+  display: none;
+}
+.languages,
+.programming {
+  margin: 0;
+}
+.programming-languages {
+  height: 117px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.frame-frame-class1 {
+  height: 476px;
+  width: 360px;
+  background-color: var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 168px var(--padding-37xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-programming-languages {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.desktop-4,
+.frame-programming-languages-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-programming-languages-wrapper {
+  width: 1248px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 46px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}
+.desktop-4 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 39px 98px 73px 70px;
+  gap: 22px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frame-programming-languages-wrapper {
+    padding-left: 23px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .join-online-course {
+    font-size: var(--font-size-29xl);
+  }
+  .class-9-to-container,
+  .explore-the-best-container,
+  .programming-languages {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-programming-languages {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-frame-class {
+    padding-top: var(--padding-105xl);
+    padding-bottom: var(--padding-105xl);
+    box-sizing: border-box;
+  }
+  .desktop-4 {
+    padding-left: 35px;
+    padding-right: 49px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .join-online-course {
+    font-size: var(--font-size-10xl);
+  }
+  .class-9-to-container,
+  .explore-the-best-container {
+    font-size: var(--font-size-3xl);
+  }
+  .frame-frame-class {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .programming-languages {
+    font-size: var(--font-size-3xl);
+  }
+  .frame-frame-class1 {
+    padding: 109px var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .desktop-4 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

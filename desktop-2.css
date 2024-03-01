@@ -1,0 +1,387 @@
+.image-2-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .sign-up1 {
+    margin: 0;
+    height: 147px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    display: inline-block;
+    font-style: italic;
+    font-weight: 400;
+    font-family: inherit;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .sign-up-text-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) var(--padding-9xl) 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-77xl);
+    color: var(--color-black);
+    font-family: var(--font-inria-sans);
+  }
+  .first-name,
+  .frame-child {
+    position: relative;
+    z-index: 1;
+  }
+  .first-name {
+    height: 77px;
+    width: 304px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame-child {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro-200);
+    align-self: stretch;
+    height: 62px;
+    min-width: 250px;
+  }
+  .parent-frame-inner,
+  .parent-frame1 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .parent-frame-inner {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 555px;
+  }
+  .parent-frame1 {
+    width: 1158px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    row-gap: 20px;
+  }
+  .last-name {
+    height: 77px;
+    width: 304px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .frame-item {
+    align-self: stretch;
+    height: 62px;
+    position: relative;
+    background-color: var(--color-gainsboro-200);
+    z-index: 2;
+  }
+  .parent-frame-child,
+  .parent-frame2 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .parent-frame-child {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 555px;
+  }
+  .parent-frame2 {
+    width: 1158px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .contact-no,
+  .email-id {
+    align-self: stretch;
+    height: 77px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .email-id-contactno-text {
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px 0;
+    min-width: 304px;
+  }
+  .iam-text-ellipse,
+  .student-text {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro-200);
+    height: 62px;
+    position: relative;
+    max-width: 100%;
+  }
+  .iam-text-ellipse {
+    width: 867px;
+    z-index: 2;
+  }
+  .student-text {
+    flex: 1;
+    min-width: 250px;
+    z-index: 1;
+  }
+  .tutor-text {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 0 0 13px;
+    box-sizing: border-box;
+  }
+  .email-id-contactno-frame,
+  .rectangle-pair,
+  .tutor-text {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-pair {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 44px 0;
+    min-width: 572px;
+    margin-left: -13px;
+  }
+  .email-id-contactno-frame {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .i-am {
+    height: 77px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    min-width: 198px;
+    z-index: 1;
+  }
+  .input-field {
+    height: 65px;
+    width: 74px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro-100);
+    z-index: 2;
+  }
+  .tutor {
+    height: 77px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+    margin-left: -50px;
+  }
+  .iam-ellipse,
+  .student-ellipse {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .student-ellipse {
+    width: 282px;
+    justify-content: flex-start;
+    margin-left: -37px;
+  }
+  .iam-ellipse {
+    width: 549px;
+    justify-content: center;
+    row-gap: 20px;
+    max-width: 100%;
+  }
+  .input-field-base {
+    height: 65px;
+    width: 74px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro-100);
+    z-index: 1;
+  }
+  .student {
+    height: 77px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    margin-left: -23px;
+  }
+  .already-have-an-account-login,
+  .login-link {
+    width: 309px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .already-have-an-account-login {
+    width: 1010px;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .email-id-frame,
+  .last-name-rectangle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .email-id-frame {
+    flex: 1;
+    flex-direction: column;
+    gap: 29px 0;
+  }
+  .last-name-rectangle {
+    width: 1237px;
+    flex-direction: row;
+    padding: 0 var(--padding-14xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-inria-sans);
+  }
+  .already-have-an {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    white-space: pre-wrap;
+    z-index: 1;
+  }
+  .button-arrow-icon {
+    height: 1px;
+    width: 126px;
+    position: relative;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .login-frame {
+    align-self: stretch;
+    width: 1447px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: var(--padding-10xl) var(--padding-359xl);
+    box-sizing: border-box;
+    position: relative;
+    max-width: 102%;
+    flex-shrink: 0;
+  }
+  .desktop-2,
+  .sign-up-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .sign-up-frame {
+    align-self: stretch;
+    height: 77px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-lg);
+    max-width: 100%;
+  }
+  .desktop-2 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-25xl) 0 var(--padding-123xl);
+    gap: 41px 0;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-inria-sans);
+  }
+  @media screen and (max-width: 1125px) {
+    .email-id-contactno-text {
+      flex: 1;
+    }
+    .email-id-contactno-frame {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .sign-up1 {
+      font-size: var(--font-size-29xl);
+    }
+    .contact-no,
+    .email-id,
+    .first-name,
+    .last-name {
+      font-size: var(--font-size-19xl);
+    }
+    .rectangle-pair {
+      margin-left: 0;
+    }
+    .i-am,
+    .student,
+    .tutor {
+      font-size: var(--font-size-19xl);
+    }
+    .already-have-an-account-login {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .already-have-an {
+      font-size: var(--font-size-19xl);
+    }
+    .login-frame {
+      padding-left: var(--padding-170xl);
+      padding-right: var(--padding-170xl);
+      box-sizing: border-box;
+    }
+    .desktop-2 {
+      gap: 41px 0;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .parent-frame-child,
+    .parent-frame-inner,
+    .rectangle-pair {
+      min-width: 100%;
+    }
+    .iam-ellipse {
+      flex-wrap: wrap;
+    }
+  }
+  
